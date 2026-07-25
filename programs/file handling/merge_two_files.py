@@ -1,0 +1,8 @@
+f1=open("file.txt","r")
+f2=open("sample.txt","r")
+data=f1.read()+"\n"+f2.read()
+f3=open("merged.txt","w")
+f3.write(data)
+f1.close()
+f2.close()
+f3.close()
