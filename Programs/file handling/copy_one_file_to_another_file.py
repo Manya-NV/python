@@ -1,6 +1,0 @@
-source=open("sample.txt","r")
-data=source.read()
-source.close()
-target=open("file.txt","w")
-target.write(data)
-target.close()

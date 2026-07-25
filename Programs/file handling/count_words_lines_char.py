@@ -1,6 +1,0 @@
-file=open("sample.txt","r")
-text=file.read()
-print("characters: ",len(text))
-print("words: ",len(text.split()))
-print("lines: ",len(text.splitlines()))
-file.close()
